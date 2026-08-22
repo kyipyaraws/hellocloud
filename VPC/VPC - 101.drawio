@@ -1,0 +1,248 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="0pO0u9KK5DFh0SuIoT8g">
+    <mxGraphModel dx="3306" dy="4089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-1" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" value="AWS Cloud" vertex="1">
+          <mxGeometry height="570" width="2800" x="430" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-2" parent="mpz1ugZ8kdHdv-x_3aIr-1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" value="ap-southeast-1" vertex="1">
+          <mxGeometry height="480" width="830" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-3" parent="mpz1ugZ8kdHdv-x_3aIr-2" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;vpc-0ca040e7c9435b05a (&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px;&quot;&gt;172.31.0.0/16&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(15, 20, 26), rgb(217, 221, 226)); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px;&quot;&gt;) - default&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="400" width="780" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-5" parent="mpz1ugZ8kdHdv-x_3aIr-3" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="ap-southeast-1a" vertex="1">
+          <mxGeometry height="300" width="220" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-8" parent="mpz1ugZ8kdHdv-x_3aIr-3" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="ap-southeast-1b" vertex="1">
+          <mxGeometry height="300" width="220" x="270" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-9" parent="mpz1ugZ8kdHdv-x_3aIr-3" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="ap-southeast-1c" vertex="1">
+          <mxGeometry height="300" width="220" x="530" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-10" parent="mpz1ugZ8kdHdv-x_3aIr-3" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.32.0/20&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-11" parent="mpz1ugZ8kdHdv-x_3aIr-3" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.16.0/20&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="315" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-12" parent="mpz1ugZ8kdHdv-x_3aIr-3" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.0.0/20&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="580" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-49" parent="mpz1ugZ8kdHdv-x_3aIr-3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="350" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-42" edge="1" parent="mpz1ugZ8kdHdv-x_3aIr-2" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="398" y="560" as="sourcePoint" />
+            <mxPoint x="398" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-55" parent="mpz1ugZ8kdHdv-x_3aIr-1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" value="ap-northeast-2" vertex="1">
+          <mxGeometry height="480" width="1050" x="1717" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-56" parent="mpz1ugZ8kdHdv-x_3aIr-55" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;vpc-02f4a28a87779c032 (&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.0.0/16&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(15, 20, 26), rgb(217, 221, 226)); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="400" width="1010" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-57" parent="mpz1ugZ8kdHdv-x_3aIr-56" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="ap-northeast-1a" vertex="1">
+          <mxGeometry height="300" width="220" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-58" parent="mpz1ugZ8kdHdv-x_3aIr-56" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="ap-northeast-1b" vertex="1">
+          <mxGeometry height="300" width="220" x="270" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-59" parent="mpz1ugZ8kdHdv-x_3aIr-56" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="ap-northeast-1c" vertex="1">
+          <mxGeometry height="300" width="220" x="530" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-60" parent="mpz1ugZ8kdHdv-x_3aIr-56" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.0.0/20&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-61" parent="mpz1ugZ8kdHdv-x_3aIr-56" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.16.0/20&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="315" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-62" parent="mpz1ugZ8kdHdv-x_3aIr-56" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.32.0/20&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="580" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-65" parent="mpz1ugZ8kdHdv-x_3aIr-56" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="ap-northeast-1d" vertex="1">
+          <mxGeometry height="300" width="220" x="760" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-67" parent="mpz1ugZ8kdHdv-x_3aIr-56" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.32.0/20&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="800" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-64" edge="1" parent="mpz1ugZ8kdHdv-x_3aIr-55" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="398" y="560" as="sourcePoint" />
+            <mxPoint x="398" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-63" parent="mpz1ugZ8kdHdv-x_3aIr-55" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="520" y="10" as="geometry" />
+        </mxCell>
+        <UserObject label="" id="mpz1ugZ8kdHdv-x_3aIr-13">
+          <mxCell parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;" vertex="1">
+            <mxGeometry height="90" width="342" x="678" y="926" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-14" parent="mpz1ugZ8kdHdv-x_3aIr-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="30" width="342" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-15" parent="mpz1ugZ8kdHdv-x_3aIr-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Destimation" vertex="1">
+          <mxGeometry height="30" width="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-16" parent="mpz1ugZ8kdHdv-x_3aIr-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Target" vertex="1">
+          <mxGeometry height="30" width="171" x="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-38" parent="mpz1ugZ8kdHdv-x_3aIr-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" vertex="1">
+          <mxGeometry height="30" width="342" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-39" parent="mpz1ugZ8kdHdv-x_3aIr-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-align: start; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;172.31.0.0/16&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-40" parent="mpz1ugZ8kdHdv-x_3aIr-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-align: start; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;local&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="171" x="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-17" parent="mpz1ugZ8kdHdv-x_3aIr-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="30" width="342" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-18" parent="mpz1ugZ8kdHdv-x_3aIr-17" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-align: start; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;0.0.0.0/0&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-19" parent="mpz1ugZ8kdHdv-x_3aIr-17" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="igw-0bfddc86f2eb96e6a" vertex="1">
+          <mxGeometry height="30" width="171" x="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-44" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_alt22;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="1770" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Main Routing Table" vertex="1">
+          <mxGeometry height="30" width="130" x="790" y="896" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-50" edge="1" parent="1" source="mpz1ugZ8kdHdv-x_3aIr-49" style="endArrow=none;html=1;rounded=0;exitX=0.6;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" target="mpz1ugZ8kdHdv-x_3aIr-44" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="790" y="319" as="sourcePoint" />
+            <mxPoint x="840" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-66" edge="1" parent="1" source="mpz1ugZ8kdHdv-x_3aIr-55" style="endArrow=none;html=1;rounded=0;exitX=0.511;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" target="mpz1ugZ8kdHdv-x_3aIr-44" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1460" y="150" as="sourcePoint" />
+            <mxPoint x="1510" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Main Routing Table" vertex="1">
+          <mxGeometry height="30" width="130" x="2477" y="896" as="geometry" />
+        </mxCell>
+        <UserObject label="" id="mpz1ugZ8kdHdv-x_3aIr-71">
+          <mxCell parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;" vertex="1">
+            <mxGeometry height="60" width="342" x="2377" y="926" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-72" parent="mpz1ugZ8kdHdv-x_3aIr-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="30" width="342" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-73" parent="mpz1ugZ8kdHdv-x_3aIr-72" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Destimation" vertex="1">
+          <mxGeometry height="30" width="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-74" parent="mpz1ugZ8kdHdv-x_3aIr-72" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Target" vertex="1">
+          <mxGeometry height="30" width="171" x="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-75" parent="mpz1ugZ8kdHdv-x_3aIr-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" vertex="1">
+          <mxGeometry height="30" width="342" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-76" parent="mpz1ugZ8kdHdv-x_3aIr-75" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-align: start; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;172.31.0.0/16&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-77" parent="mpz1ugZ8kdHdv-x_3aIr-75" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-align: start; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;local&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="171" x="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Internet" vertex="1">
+          <mxGeometry height="30" width="60" x="1770" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-82" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" value="ap-southeast-1" vertex="1">
+          <mxGeometry height="480" width="830" x="1299" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-83" parent="mpz1ugZ8kdHdv-x_3aIr-82" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;vpc-09d52c42f3056fc50 (&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.0.0/16&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(15, 20, 26), rgb(217, 221, 226)); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px;&quot;&gt;) - my-vpc-01&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="400" width="780" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-84" parent="mpz1ugZ8kdHdv-x_3aIr-83" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="ap-southeast-1a" vertex="1">
+          <mxGeometry height="300" width="220" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-85" parent="mpz1ugZ8kdHdv-x_3aIr-83" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="ap-southeast-1b" vertex="1">
+          <mxGeometry height="300" width="220" x="270" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-86" parent="mpz1ugZ8kdHdv-x_3aIr-83" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="ap-southeast-1c" vertex="1">
+          <mxGeometry height="300" width="220" x="530" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-103" parent="mpz1ugZ8kdHdv-x_3aIr-83" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.32.0/20&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="55" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-104" parent="mpz1ugZ8kdHdv-x_3aIr-83" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.16.0/20&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="325" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-105" parent="mpz1ugZ8kdHdv-x_3aIr-83" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(240, 251, 255);&quot;&gt;172.31.0.0/20&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="580" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-91" edge="1" parent="mpz1ugZ8kdHdv-x_3aIr-82" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="398" y="560" as="sourcePoint" />
+            <mxPoint x="398" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-92" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Main Routing Table" vertex="1">
+          <mxGeometry height="30" width="130" x="1630" y="896" as="geometry" />
+        </mxCell>
+        <UserObject label="" id="mpz1ugZ8kdHdv-x_3aIr-93">
+          <mxCell parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;" vertex="1">
+            <mxGeometry height="60" width="342" x="1524" y="930" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-94" parent="mpz1ugZ8kdHdv-x_3aIr-93" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="30" width="342" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-95" parent="mpz1ugZ8kdHdv-x_3aIr-94" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Destimation" vertex="1">
+          <mxGeometry height="30" width="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-96" parent="mpz1ugZ8kdHdv-x_3aIr-94" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Target" vertex="1">
+          <mxGeometry height="30" width="171" x="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-97" parent="mpz1ugZ8kdHdv-x_3aIr-93" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" vertex="1">
+          <mxGeometry height="30" width="342" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-98" parent="mpz1ugZ8kdHdv-x_3aIr-97" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-align: start; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;172.31.0.0/16&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpz1ugZ8kdHdv-x_3aIr-99" parent="mpz1ugZ8kdHdv-x_3aIr-97" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-align: start; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;local&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="171" x="171" as="geometry">
+            <mxRectangle height="30" width="171" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
