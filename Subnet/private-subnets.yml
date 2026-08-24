@@ -23,7 +23,7 @@ Resources:
       Tags: 
         - Key: 'Name'
           Value: 'default-private-subnet1'
-      VpcId: 'vpc-0ca040e7c9435b05a'
+      VpcId: 'vpc-078dab36033bad476'
 
   privateSubnet2:
     Type: AWS::EC2::Subnet
@@ -47,7 +47,7 @@ Resources:
       Tags: 
         - Key: 'Name'
           Value: 'default-private-subnet2'
-      VpcId: 'vpc-0ca040e7c9435b05a'
+      VpcId: 'vpc-078dab36033bad476'
   
   privateSubnet3:
     Type: AWS::EC2::Subnet
@@ -71,4 +71,4 @@ Resources:
       Tags: 
         - Key: 'Name'
           Value: 'default-private-subnet3'
-      VpcId: 'vpc-0ca040e7c9435b05a'
+      VpcId: 'vpc-078dab36033bad476'
