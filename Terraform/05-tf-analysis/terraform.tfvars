@@ -1,0 +1,5 @@
+prefix         = "kyi"
+environment    = "UAT"
+region         = "ap-northeast-1"
+placehold      = "placedog.net"
+placeholder_id = "23"

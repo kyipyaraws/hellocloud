@@ -1,0 +1,23 @@
+2026-07-07T18:31:23.045+0800 [INFO]  Terraform version: 1.15.7
+2026-07-07T18:31:23.045+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.105.0
+2026-07-07T18:31:23.045+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-07-07T18:31:23.045+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-07-07T18:31:23.045+0800 [DEBUG] using github.com/zclconf/go-cty v1.18.0
+2026-07-07T18:31:23.045+0800 [INFO]  Go runtime version: go1.25.10
+2026-07-07T18:31:23.045+0800 [INFO]  CLI args: []string{"terraform", "fmt"}
+2026-07-07T18:31:23.045+0800 [TRACE] Stdout is a terminal of width 110
+2026-07-07T18:31:23.045+0800 [TRACE] Stderr is a terminal of width 110
+2026-07-07T18:31:23.045+0800 [TRACE] Stdin is a terminal
+2026-07-07T18:31:23.045+0800 [DEBUG] Attempting to open CLI config file: /home/kyipyar/.terraformrc
+2026-07-07T18:31:23.045+0800 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-07-07T18:31:23.045+0800 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-07-07T18:31:23.045+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.terraform.d/plugins
+2026-07-07T18:31:23.045+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.local/share/terraform/plugins
+2026-07-07T18:31:23.045+0800 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2026-07-07T18:31:23.045+0800 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2026-07-07T18:31:23.045+0800 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2026-07-07T18:31:23.046+0800 [INFO]  CLI command args: []string{"fmt"}
+2026-07-07T18:31:23.046+0800 [TRACE] terraform fmt: looking for files in .
+2026-07-07T18:31:23.046+0800 [TRACE] terraform fmt: Formatting data.tf
+2026-07-07T18:31:23.046+0800 [TRACE] terraform fmt: Formatting output.tf
+2026-07-07T18:31:23.047+0800 [TRACE] terraform fmt: Formatting version-aka-providers.tf

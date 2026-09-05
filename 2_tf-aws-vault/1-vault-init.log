@@ -1,0 +1,27 @@
+2026-07-07T23:32:21.909+0800 [INFO]  Terraform version: 1.15.7
+2026-07-07T23:32:21.910+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.105.0
+2026-07-07T23:32:21.910+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-07-07T23:32:21.910+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-07-07T23:32:21.910+0800 [DEBUG] using github.com/zclconf/go-cty v1.18.0
+2026-07-07T23:32:21.910+0800 [INFO]  Go runtime version: go1.25.10
+2026-07-07T23:32:21.910+0800 [INFO]  CLI args: []string{"terraform", "init"}
+2026-07-07T23:32:21.910+0800 [DEBUG] Attempting to open CLI config file: /home/kyipyar/.terraformrc
+2026-07-07T23:32:21.910+0800 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-07-07T23:32:21.910+0800 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-07-07T23:32:21.910+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.terraform.d/plugins
+2026-07-07T23:32:21.910+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.local/share/terraform/plugins
+2026-07-07T23:32:21.910+0800 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2026-07-07T23:32:21.910+0800 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2026-07-07T23:32:21.910+0800 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2026-07-07T23:32:21.911+0800 [INFO]  CLI command args: []string{"init"}
+2026-07-07T23:32:21.911+0800 [DEBUG] Starting graph walk: walkInit
+2026-07-07T23:32:21.912+0800 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2026-07-07T23:32:25.526+0800 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/vault/versions
+2026-07-07T23:32:28.929+0800 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/vault/5.10.1/download/linux/amd64
+2026-07-07T23:32:32.411+0800 [DEBUG] GET https://releases.hashicorp.com/terraform-provider-vault/5.10.1/terraform-provider-vault_5.10.1_SHA256SUMS
+2026-07-07T23:32:35.928+0800 [DEBUG] GET https://releases.hashicorp.com/terraform-provider-vault/5.10.1/terraform-provider-vault_5.10.1_SHA256SUMS.72D7468F.sig
+2026-07-07T23:32:36.713+0800 [WARN]  expired openpgp key from HashiCorp Security (hashicorp.com/security) <security@hashicorp.com>
+2026-07-07T23:32:36.713+0800 [DEBUG] Provider signed by 34365D9472D7468F HashiCorp Security (hashicorp.com/security) <security@hashicorp.com>
+2026-07-07T23:32:36.715+0800 [WARN]  expired openpgp key from HashiCorp Security (hashicorp.com/security) <security@hashicorp.com>
+2026-07-07T23:32:36.973+0800 [DEBUG] checking for provisioner in "."
+2026-07-07T23:32:36.982+0800 [DEBUG] checking for provisioner in "/usr/bin"

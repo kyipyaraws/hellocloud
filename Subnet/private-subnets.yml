@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 AWSTemplateFormatVersion: "2010-09-09"
 Description: 'Private Subnets in ap-south-east-1 default'
 Resources:
@@ -72,3 +73,79 @@ Resources:
         - Key: 'Name'
           Value: 'default-private-subnet3'
       VpcId: 'vpc-078dab36033bad476'
+=======
+AWSTemplateFormatVersion: "2010-09-09"
+Description: 'Private Subnets in ap-south-east-1 default'
+Resources:
+  privateSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      #AssignIpv6AddressOnCreation: Boolean
+      AvailabilityZone: 'ap-southeast-1a'
+      #AvailabilityZoneId: String
+      CidrBlock: '172.31.48.0/20'
+      #EnableDns64: Boolean
+      #EnableLniAtDeviceIndex: Integer
+      # Ipv4IpamPoolId: String
+      # Ipv4NetmaskLength: Integer
+      #Ipv6CidrBlock: String
+      #Ipv6IpamPoolId: String
+      #Ipv6Native: Boolean
+      #Ipv6NetmaskLength: Integer
+      MapPublicIpOnLaunch: false
+      # OutpostArn: String
+      # PrivateDnsNameOptionsOnLaunch: 
+      #   PrivateDnsNameOptionsOnLaunch
+      Tags: 
+        - Key: 'Name'
+          Value: 'default-private-subnet1'
+      VpcId: 'vpc-078dab36033bad476'
+
+  privateSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      #AssignIpv6AddressOnCreation: Boolean
+      AvailabilityZone: "ap-southeast-1b"
+      #AvailabilityZoneId: String
+      CidrBlock: '172.31.64.0/20'
+      #EnableDns64: Boolean
+      #EnableLniAtDeviceIndex: Integer
+      # Ipv4IpamPoolId: String
+      # Ipv4NetmaskLength: Integer
+      #Ipv6CidrBlock: String
+      #Ipv6IpamPoolId: String
+      #Ipv6Native: Boolean
+      #Ipv6NetmaskLength: Integer
+      MapPublicIpOnLaunch: false
+      # OutpostArn: String
+      # PrivateDnsNameOptionsOnLaunch: 
+      #   PrivateDnsNameOptionsOnLaunch
+      Tags: 
+        - Key: 'Name'
+          Value: 'default-private-subnet2'
+      VpcId: 'vpc-078dab36033bad476'
+  
+  privateSubnet3:
+    Type: AWS::EC2::Subnet
+    Properties:
+      #AssignIpv6AddressOnCreation: Boolean
+      AvailabilityZone: "ap-southeast-1c"
+      #AvailabilityZoneId: String
+      CidrBlock: '172.31.80.0/20'
+      #EnableDns64: Boolean
+      #EnableLniAtDeviceIndex: Integer
+      # Ipv4IpamPoolId: String
+      # Ipv4NetmaskLength: Integer
+      #Ipv6CidrBlock: String
+      #Ipv6IpamPoolId: String
+      #Ipv6Native: Boolean
+      #Ipv6NetmaskLength: Integer
+      MapPublicIpOnLaunch: false
+      # OutpostArn: String
+      # PrivateDnsNameOptionsOnLaunch: 
+      #   PrivateDnsNameOptionsOnLaunch
+      Tags: 
+        - Key: 'Name'
+          Value: 'default-private-subnet3'
+      VpcId: 'vpc-078dab36033bad476'
+>>>>>>> abd7774 (HelloCloud Prepareation Tutorials)

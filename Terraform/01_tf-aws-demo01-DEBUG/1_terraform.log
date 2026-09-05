@@ -1,0 +1,59 @@
+2026-07-07T18:09:41.717+0800 [INFO]  Terraform version: 1.15.7
+2026-07-07T18:09:41.717+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.105.0
+2026-07-07T18:09:41.717+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-07-07T18:09:41.717+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-07-07T18:09:41.717+0800 [DEBUG] using github.com/zclconf/go-cty v1.18.0
+2026-07-07T18:09:41.717+0800 [INFO]  Go runtime version: go1.25.10
+2026-07-07T18:09:41.717+0800 [INFO]  CLI args: []string{"terraform", "-version"}
+2026-07-07T18:09:41.717+0800 [DEBUG] Attempting to open CLI config file: /home/kyipyar/.terraformrc
+2026-07-07T18:09:41.717+0800 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-07-07T18:09:41.717+0800 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-07-07T18:09:41.717+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.terraform.d/plugins
+2026-07-07T18:09:41.717+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.local/share/terraform/plugins
+2026-07-07T18:09:41.719+0800 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2026-07-07T18:09:41.719+0800 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2026-07-07T18:09:41.720+0800 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2026-07-07T18:09:41.720+0800 [INFO]  CLI command args: []string{"version", "-version"}
+2026-07-07T18:13:20.731+0800 [INFO]  Terraform version: 1.15.7
+2026-07-07T18:13:20.731+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.105.0
+2026-07-07T18:13:20.731+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-07-07T18:13:20.731+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-07-07T18:13:20.731+0800 [DEBUG] using github.com/zclconf/go-cty v1.18.0
+2026-07-07T18:13:20.731+0800 [INFO]  Go runtime version: go1.25.10
+2026-07-07T18:13:20.731+0800 [INFO]  CLI args: []string{"terraform", "init"}
+2026-07-07T18:13:20.731+0800 [DEBUG] Attempting to open CLI config file: /home/kyipyar/.terraformrc
+2026-07-07T18:13:20.731+0800 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-07-07T18:13:20.731+0800 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-07-07T18:13:20.731+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.terraform.d/plugins
+2026-07-07T18:13:20.731+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.local/share/terraform/plugins
+2026-07-07T18:13:20.731+0800 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2026-07-07T18:13:20.731+0800 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2026-07-07T18:13:20.731+0800 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2026-07-07T18:13:20.732+0800 [INFO]  CLI command args: []string{"init"}
+2026-07-07T18:16:23.900+0800 [INFO]  Terraform version: 1.15.7
+2026-07-07T18:16:23.900+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.105.0
+2026-07-07T18:16:23.900+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-07-07T18:16:23.900+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-07-07T18:16:23.900+0800 [DEBUG] using github.com/zclconf/go-cty v1.18.0
+2026-07-07T18:16:23.900+0800 [INFO]  Go runtime version: go1.25.10
+2026-07-07T18:16:23.900+0800 [INFO]  CLI args: []string{"terraform", "init"}
+2026-07-07T18:16:23.900+0800 [DEBUG] Attempting to open CLI config file: /home/kyipyar/.terraformrc
+2026-07-07T18:16:23.900+0800 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-07-07T18:16:23.901+0800 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-07-07T18:16:23.901+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.terraform.d/plugins
+2026-07-07T18:16:23.901+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.local/share/terraform/plugins
+2026-07-07T18:16:23.901+0800 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2026-07-07T18:16:23.901+0800 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2026-07-07T18:16:23.901+0800 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2026-07-07T18:16:23.901+0800 [INFO]  CLI command args: []string{"init"}
+2026-07-07T18:16:23.902+0800 [DEBUG] Starting graph walk: walkInit
+2026-07-07T18:16:23.902+0800 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2026-07-07T18:16:24.043+0800 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/aws/versions
+2026-07-07T18:16:24.095+0800 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/aws/6.53.0/download/linux/amd64
+2026-07-07T18:16:24.141+0800 [DEBUG] GET https://releases.hashicorp.com/terraform-provider-aws/6.53.0/terraform-provider-aws_6.53.0_SHA256SUMS
+2026-07-07T18:16:24.217+0800 [DEBUG] GET https://releases.hashicorp.com/terraform-provider-aws/6.53.0/terraform-provider-aws_6.53.0_SHA256SUMS.72D7468F.sig
+2026-07-07T18:16:28.995+0800 [WARN]  expired openpgp key from HashiCorp Security (hashicorp.com/security) <security@hashicorp.com>
+2026-07-07T18:16:28.995+0800 [DEBUG] Provider signed by 34365D9472D7468F HashiCorp Security (hashicorp.com/security) <security@hashicorp.com>
+2026-07-07T18:16:28.997+0800 [WARN]  expired openpgp key from HashiCorp Security (hashicorp.com/security) <security@hashicorp.com>
+2026-07-07T18:16:32.208+0800 [DEBUG] checking for provisioner in "."
+2026-07-07T18:16:32.215+0800 [DEBUG] checking for provisioner in "/usr/bin"

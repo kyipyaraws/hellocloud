@@ -1,0 +1,63 @@
+2026-07-07T23:33:44.690+0800 [INFO]  Terraform version: 1.15.7
+2026-07-07T23:33:44.690+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.105.0
+2026-07-07T23:33:44.690+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-07-07T23:33:44.690+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-07-07T23:33:44.690+0800 [DEBUG] using github.com/zclconf/go-cty v1.18.0
+2026-07-07T23:33:44.690+0800 [INFO]  Go runtime version: go1.25.10
+2026-07-07T23:33:44.690+0800 [INFO]  CLI args: []string{"terraform", "validate"}
+2026-07-07T23:33:44.690+0800 [DEBUG] Attempting to open CLI config file: /home/kyipyar/.terraformrc
+2026-07-07T23:33:44.690+0800 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-07-07T23:33:44.690+0800 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-07-07T23:33:44.690+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.terraform.d/plugins
+2026-07-07T23:33:44.690+0800 [DEBUG] ignoring non-existing provider search directory /home/kyipyar/.local/share/terraform/plugins
+2026-07-07T23:33:44.690+0800 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2026-07-07T23:33:44.690+0800 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2026-07-07T23:33:44.690+0800 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2026-07-07T23:33:44.690+0800 [INFO]  CLI command args: []string{"validate"}
+2026-07-07T23:33:44.691+0800 [DEBUG] Starting graph walk: walkInit
+2026-07-07T23:33:44.719+0800 [DEBUG] checking for provisioner in "."
+2026-07-07T23:33:44.721+0800 [DEBUG] checking for provisioner in "/usr/bin"
+2026-07-07T23:33:44.721+0800 [DEBUG] created provider logger: level=debug
+2026-07-07T23:33:44.721+0800 [INFO]  provider: configuring client automatic mTLS
+2026-07-07T23:33:44.727+0800 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5 args=[".terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5"]
+2026-07-07T23:33:44.727+0800 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5 pid=48364
+2026-07-07T23:33:44.727+0800 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5
+2026-07-07T23:33:44.741+0800 [INFO]  provider.terraform-provider-vault_v5.10.1_x5: configuring server automatic mTLS: timestamp="2026-07-07T23:33:44.741+0800"
+2026-07-07T23:33:44.748+0800 [DEBUG] provider: using plugin: version=5
+2026-07-07T23:33:44.748+0800 [DEBUG] provider.terraform-provider-vault_v5.10.1_x5: plugin address: address=/tmp/plugin2330656335 network=unix timestamp="2026-07-07T23:33:44.748+0800"
+2026-07-07T23:33:44.793+0800 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-07-07T23:33:44.794+0800 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5 id=48364
+2026-07-07T23:33:44.794+0800 [DEBUG] provider: plugin exited
+2026-07-07T23:33:44.794+0800 [DEBUG] Building and walking validate graph
+2026-07-07T23:33:44.795+0800 [DEBUG] ProviderTransformer: "data.vault_auth_backends.vault-dev-server1" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/vault"].vrd1
+2026-07-07T23:33:44.795+0800 [DEBUG] ProviderTransformer: "data.vault_auth_backends.vault-dev-server2" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/vault"].vrd2
+2026-07-07T23:33:44.795+0800 [DEBUG] pruning unused provider["registry.terraform.io/hashicorp/vault"]
+2026-07-07T23:33:44.795+0800 [DEBUG] ReferenceTransformer: "data.vault_auth_backends.vault-dev-server1" references: []
+2026-07-07T23:33:44.795+0800 [DEBUG] ReferenceTransformer: "data.vault_auth_backends.vault-dev-server2" references: []
+2026-07-07T23:33:44.795+0800 [DEBUG] ReferenceTransformer: "output.vault-server1-auth_list (expand)" references: [data.vault_auth_backends.vault-dev-server1]
+2026-07-07T23:33:44.795+0800 [DEBUG] ReferenceTransformer: "output.vault-server2-auth_list (expand)" references: [data.vault_auth_backends.vault-dev-server2]
+2026-07-07T23:33:44.795+0800 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/hashicorp/vault\"].vrd1" references: []
+2026-07-07T23:33:44.795+0800 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/hashicorp/vault\"].vrd2" references: []
+2026-07-07T23:33:44.795+0800 [DEBUG] Starting graph walk: walkValidate
+2026-07-07T23:33:44.795+0800 [DEBUG] created provider logger: level=debug
+2026-07-07T23:33:44.795+0800 [INFO]  provider: configuring client automatic mTLS
+2026-07-07T23:33:44.798+0800 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5 args=[".terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5"]
+2026-07-07T23:33:44.798+0800 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5 pid=48380
+2026-07-07T23:33:44.798+0800 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5
+2026-07-07T23:33:44.812+0800 [INFO]  provider.terraform-provider-vault_v5.10.1_x5: configuring server automatic mTLS: timestamp="2026-07-07T23:33:44.812+0800"
+2026-07-07T23:33:44.818+0800 [DEBUG] provider.terraform-provider-vault_v5.10.1_x5: plugin address: address=/tmp/plugin4276811634 network=unix timestamp="2026-07-07T23:33:44.818+0800"
+2026-07-07T23:33:44.818+0800 [DEBUG] provider: using plugin: version=5
+2026-07-07T23:33:44.824+0800 [DEBUG] created provider logger: level=debug
+2026-07-07T23:33:44.824+0800 [INFO]  provider: configuring client automatic mTLS
+2026-07-07T23:33:44.826+0800 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5 args=[".terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5"]
+2026-07-07T23:33:44.826+0800 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5 pid=48392
+2026-07-07T23:33:44.827+0800 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5
+2026-07-07T23:33:44.843+0800 [INFO]  provider.terraform-provider-vault_v5.10.1_x5: configuring server automatic mTLS: timestamp="2026-07-07T23:33:44.843+0800"
+2026-07-07T23:33:44.849+0800 [DEBUG] provider.terraform-provider-vault_v5.10.1_x5: plugin address: network=unix address=/tmp/plugin3548920379 timestamp="2026-07-07T23:33:44.849+0800"
+2026-07-07T23:33:44.849+0800 [DEBUG] provider: using plugin: version=5
+2026-07-07T23:33:44.857+0800 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-07-07T23:33:44.858+0800 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5 id=48380
+2026-07-07T23:33:44.858+0800 [DEBUG] provider: plugin exited
+2026-07-07T23:33:44.862+0800 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-07-07T23:33:44.862+0800 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/vault/5.10.1/linux_amd64/terraform-provider-vault_v5.10.1_x5 id=48392
+2026-07-07T23:33:44.862+0800 [DEBUG] provider: plugin exited
